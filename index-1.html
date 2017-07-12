@@ -1,0 +1,869 @@
+<!doctype HTML>
+<html>
+
+<head>
+
+    <style>
+        body {
+            margin: 0;
+            padding: 0;
+        }
+
+        .wrap {
+               max-width: 620px;
+                margin: 0 auto;
+            clear: both;
+    width: 100%;
+        }
+
+        .ads {
+            width: 300px;
+            position: absolute;
+            top: 125px;
+        }
+
+          .ads.sticky {
+         
+            top: 100px;
+        }
+
+        #header {
+            background: #cccccc;
+            z-index: 1000;
+        animation-direction: normal;
+    animation-duration: 0.3s;
+        }
+
+        #header .innercontent {
+            height: 100px;
+        }
+
+        #header.sticky {
+            position: fixed;
+            top: 0;
+            width: 100%;
+        }
+         @keyframes slide-down {
+        0% {
+            opacity: 0;
+            transform: translateY(-100%);
+        } 
+        100% {
+            opacity: 0.9;
+            transform: translateY(0);
+        } 
+    }
+    #header.sticky{
+            height:75px;
+        }
+       
+      
+        .sticky {
+            position: fixed;
+        }
+
+        .content {
+            background: #f1f1f1
+        }
+
+       
+
+        #footer {
+            background: #333333;
+        }
+
+        #footer .innercontent {
+            height: 400px;
+        }
+
+        .bottomSticky {
+            top: auto !important;
+        }
+        .left-ad{
+            background: #333333;
+                        height: 600px;
+        }
+        .right-ad{
+            background: #222222;
+            height: 300px;
+        }
+        .data-table{
+            width:100%;
+            border-collapse: collapse;
+        }
+         .data-table thead{
+            background: #ffffff;
+        }
+        .data-table td{
+            text-align: center;
+        }
+.right-side-content{
+    float:right;
+}
+.left-side-content{
+    float:left;
+}
+clear{
+    clear:both;
+}
+
+    </style>
+</head>
+
+<body>
+    <header id="header">
+        <div class="wrap">
+            <div class="innercontent"></div>
+        </div>
+    </header>
+    <div class="content">
+        <div class="ad-container">
+            <div class="left-ad ads" id="left-ad"></div>
+            <div class="right-ad ads" id="left-ad"></div>
+        </div>
+
+        <div class="wrap">
+            <div class="innercontent">
+                <table class="data-table">
+                    <thead>
+                        <tr>
+                            <th>Col1</th>
+                            <th>Col2</th>
+                            <th>Col3</th>
+                            <th>Col4</th>
+                            <th>Col5</th>               
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td>ssadasdasdasdasdasd</td>
+                            <td>asdasd</td>
+                            <td>asdasd</td>
+                            <td>asd</td>
+                            <td>ads</td>               
+                        </tr>
+                        <tr>
+                            <td>sd</td>
+                            <td>asdasd</td>
+                            <td>asdasd</td>
+                            <td>asd</td>
+                            <td>ads</td>               
+                        </tr>
+                        <tr>
+                            <td>ssadasdasdasdasdasd</td>
+                            <td>asdasd</td>
+                            <td>asdasd</td>
+                            <td>asd</td>
+                            <td>ads</td>               
+                        </tr>
+                        <tr>
+                            <td>ssadasdasdasdasdasd</td>
+                            <td>asdasd</td>
+                            <td>asdasd</td>
+                            <td>asd</td>
+                            <td>ads</td>               
+                        </tr>
+                        <tr>
+                            <td>ssadasdasdasdasdasd</td>
+                            <td>asdasd</td>
+                            <td>asdasd</td>
+                            <td>asd</td>
+                            <td>ads</td>               
+                        </tr>
+                        <tr>
+                            <td>ssadasdasdasdasdasd</td>
+                            <td>asdasd</td>
+                            <td>asdasd</td>
+                            <td>asd</td>
+                            <td>ads</td>               
+                        </tr>
+                        <tr>
+                            <td>ssadasdasdasdasdasd</td>
+                            <td>asdasd</td>
+                            <td>asdasd</td>
+                            <td>asd</td>
+                            <td>ads</td>               
+                        </tr>
+                        <tr>
+                            <td>ssadasdasdasdasdasd</td>
+                            <td>asdasd</td>
+                            <td>asdasd</td>
+                            <td>asd</td>
+                            <td>ads</td>               
+                        </tr>
+                        <tr>
+                            <td>ssadasdasdasdasdasd</td>
+                            <td>asdasd</td>
+                            <td>asdasd</td>
+                            <td>asd</td>
+                            <td>ads</td>               
+                        </tr>
+                        <tr>
+                            <td>ssadasdasdasdasdasd</td>
+                            <td>asdasd</td>
+                            <td>asdasd</td>
+                            <td>asd</td>
+                            <td>ads</td>               
+                        </tr>
+                        <tr>
+                            <td>ssadasdasdasdasdasd</td>
+                            <td>asdasd</td>
+                            <td>asdasd</td>
+                            <td>asd</td>
+                            <td>ads</td>               
+                        </tr>
+                        <tr>
+                            <td>ssadasdasdasdasdasd</td>
+                            <td>asdasd</td>
+                            <td>asdasd</td>
+                            <td>asd</td>
+                            <td>ads</td>               
+                        </tr>
+                        <tr>
+                            <td>ssadasdasdasdasdasd</td>
+                            <td>asdasd</td>
+                            <td>asdasd</td>
+                            <td>asd</td>
+                            <td>ads</td>               
+                        </tr>
+                        <tr>
+                            <td>ssadasdasdasdasdasd</td>
+                            <td>asdasd</td>
+                            <td>asdasd</td>
+                            <td>asd</td>
+                            <td>ads</td>               
+                        </tr>
+                        <tr>
+                            <td>ssadasdasdasdasdasd</td>
+                            <td>asdasd</td>
+                            <td>asdasd</td>
+                            <td>asd</td>
+                            <td>ads</td>               
+                        </tr>
+                        <tr>
+                            <td>ssadasdasdasdasdasd</td>
+                            <td>asdasd</td>
+                            <td>asdasd</td>
+                            <td>asd</td>
+                            <td>ads</td>               
+                        </tr>
+                         <tr>
+                            <td>ssadasdasdasdasdasd</td>
+                            <td>asdasd</td>
+                            <td>asdasd</td>
+                            <td>asd</td>
+                            <td>ads</td>               
+                        </tr> <tr>
+                            <td>ssadasdasdasdasdasd</td>
+                            <td>asdasd</td>
+                            <td>asdasd</td>
+                            <td>asd</td>
+                            <td>ads</td>               
+                        </tr> <tr>
+                            <td>ssadasdasdasdasdasd</td>
+                            <td>asdasd</td>
+                            <td>asdasd</td>
+                            <td>asd</td>
+                            <td>ads</td>               
+                        </tr> <tr>
+                            <td>ssadasdasdasdasdasd</td>
+                            <td>asdasd</td>
+                            <td>asdasd</td>
+                            <td>asd</td>
+                            <td>ads</td>               
+                        </tr> <tr>
+                            <td>ssadasdasdasdasdasd</td>
+                            <td>asdasd</td>
+                            <td>asdasd</td>
+                            <td>asd</td>
+                            <td>ads</td>               
+                        </tr> <tr>
+                            <td>ssadasdasdasdasdasd</td>
+                            <td>asdasd</td>
+                            <td>asdasd</td>
+                            <td>asd</td>
+                            <td>ads</td>               
+                        </tr> <tr>
+                            <td>ssadasdasdasdasdasd</td>
+                            <td>asdasd</td>
+                            <td>asdasd</td>
+                            <td>asd</td>
+                            <td>ads</td>               
+                        </tr> <tr>
+                            <td>ssadasdasdasdasdasd</td>
+                            <td>asdasd</td>
+                            <td>asdasd</td>
+                            <td>asd</td>
+                            <td>ads</td>               
+                        </tr> <tr>
+                            <td>ssadasdasdasdasdasd</td>
+                            <td>asdasd</td>
+                            <td>asdasd</td>
+                            <td>asd</td>
+                            <td>ads</td>               
+                        </tr> <tr>
+                            <td>ssadasdasdasdasdasd</td>
+                            <td>asdasd</td>
+                            <td>asdasd</td>
+                            <td>asd</td>
+                            <td>ads</td>               
+                        </tr> <tr>
+                            <td>ssadasdasdasdasdasd</td>
+                            <td>asdasd</td>
+                            <td>asdasd</td>
+                            <td>asd</td>
+                            <td>ads</td>               
+                        </tr> <tr>
+                            <td>ssadasdasdasdasdasd</td>
+                            <td>asdasd</td>
+                            <td>asdasd</td>
+                            <td>asd</td>
+                            <td>ads</td>               
+                        </tr> <tr>
+                            <td>ssadasdasdasdasdasd</td>
+                            <td>asdasd</td>
+                            <td>asdasd</td>
+                            <td>asd</td>
+                            <td>ads</td>               
+                        </tr> <tr>
+                            <td>ssadasdasdasdasdasd</td>
+                            <td>asdasd</td>
+                            <td>asdasd</td>
+                            <td>asd</td>
+                            <td>ads</td>               
+                        </tr> <tr>
+                            <td>ssadasdasdasdasdasd</td>
+                            <td>asdasd</td>
+                            <td>asdasd</td>
+                            <td>asd</td>
+                            <td>ads</td>               
+                        </tr> <tr>
+                            <td>ssadasdasdasdasdasd</td>
+                            <td>asdasd</td>
+                            <td>asdasd</td>
+                            <td>asd</td>
+                            <td>ads</td>               
+                        </tr> <tr>
+                            <td>ssadasdasdasdasdasd</td>
+                            <td>asdasd</td>
+                            <td>asdasd</td>
+                            <td>asd</td>
+                            <td>ads</td>               
+                        </tr> <tr>
+                            <td>ssadasdasdasdasdasd</td>
+                            <td>asdasd</td>
+                            <td>asdasd</td>
+                            <td>asd</td>
+                            <td>ads</td>               
+                        </tr> <tr>
+                            <td>ssadasdasdasdasdasd</td>
+                            <td>asdasd</td>
+                            <td>asdasd</td>
+                            <td>asd</td>
+                            <td>ads</td>               
+                        </tr> <tr>
+                            <td>ssadasdasdasdasdasd</td>
+                            <td>asdasd</td>
+                            <td>asdasd</td>
+                            <td>asd</td>
+                            <td>ads</td>               
+                        </tr> <tr>
+                            <td>ssadasdasdasdasdasd</td>
+                            <td>asdasd</td>
+                            <td>asdasd</td>
+                            <td>asd</td>
+                            <td>ads</td>               
+                        </tr> <tr>
+                            <td>ssadasdasdasdasdasd</td>
+                            <td>asdasd</td>
+                            <td>asdasd</td>
+                            <td>asd</td>
+                            <td>ads</td>               
+                        </tr> <tr>
+                            <td>ssadasdasdasdasdasd</td>
+                            <td>asdasd</td>
+                            <td>asdasd</td>
+                            <td>asd</td>
+                            <td>ads</td>               
+                        </tr> <tr>
+                            <td>ssadasdasdasdasdasd</td>
+                            <td>asdasd</td>
+                            <td>asdasd</td>
+                            <td>asd</td>
+                            <td>ads</td>               
+                        </tr> <tr>
+                            <td>ssadasdasdasdasdasd</td>
+                            <td>asdasd</td>
+                            <td>asdasd</td>
+                            <td>asd</td>
+                            <td>ads</td>               
+                        </tr> <tr>
+                            <td>ssadasdasdasdasdasd</td>
+                            <td>asdasd</td>
+                            <td>asdasd</td>
+                            <td>asd</td>
+                            <td>ads</td>               
+                        </tr> <tr>
+                            <td>ssadasdasdasdasdasd</td>
+                            <td>asdasd</td>
+                            <td>asdasd</td>
+                            <td>asd</td>
+                            <td>ads</td>               
+                        </tr> <tr>
+                            <td>ssadasdasdasdasdasd</td>
+                            <td>asdasd</td>
+                            <td>asdasd</td>
+                            <td>asd</td>
+                            <td>ads</td>               
+                        </tr> <tr>
+                            <td>ssadasdasdasdasdasd</td>
+                            <td>asdasd</td>
+                            <td>asdasd</td>
+                            <td>asd</td>
+                            <td>ads</td>               
+                        </tr> <tr>
+                            <td>ssadasdasdasdasdasd</td>
+                            <td>asdasd</td>
+                            <td>asdasd</td>
+                            <td>asd</td>
+                            <td>ads</td>               
+                        </tr> <tr>
+                            <td>ssadasdasdasdasdasd</td>
+                            <td>asdasd</td>
+                            <td>asdasd</td>
+                            <td>asd</td>
+                            <td>ads</td>               
+                        </tr> <tr>
+                            <td>ssadasdasdasdasdasd</td>
+                            <td>asdasd</td>
+                            <td>asdasd</td>
+                            <td>asd</td>
+                            <td>ads</td>               
+                        </tr> <tr>
+                            <td>ssadasdasdasdasdasd</td>
+                            <td>asdasd</td>
+                            <td>asdasd</td>
+                            <td>asd</td>
+                            <td>ads</td>               
+                        </tr> <tr>
+                            <td>ssadasdasdasdasdasd</td>
+                            <td>asdasd</td>
+                            <td>asdasd</td>
+                            <td>asd</td>
+                            <td>ads</td>               
+                        </tr> <tr>
+                            <td>ssadasdasdasdasdasd</td>
+                            <td>asdasd</td>
+                            <td>asdasd</td>
+                            <td>asd</td>
+                            <td>ads</td>               
+                        </tr> <tr>
+                            <td>ssadasdasdasdasdasd</td>
+                            <td>asdasd</td>
+                            <td>asdasd</td>
+                            <td>asd</td>
+                            <td>ads</td>               
+                        </tr> <tr>
+                            <td>ssadasdasdasdasdasd</td>
+                            <td>asdasd</td>
+                            <td>asdasd</td>
+                            <td>asd</td>
+                            <td>ads</td>               
+                        </tr> <tr>
+                            <td>ssadasdasdasdasdasd</td>
+                            <td>asdasd</td>
+                            <td>asdasd</td>
+                            <td>asd</td>
+                            <td>ads</td>               
+                        </tr> <tr>
+                            <td>ssadasdasdasdasdasd</td>
+                            <td>asdasd</td>
+                            <td>asdasd</td>
+                            <td>asd</td>
+                            <td>ads</td>               
+                        </tr> <tr>
+                            <td>ssadasdasdasdasdasd</td>
+                            <td>asdasd</td>
+                            <td>asdasd</td>
+                            <td>asd</td>
+                            <td>ads</td>               
+                        </tr> <tr>
+                            <td>ssadasdasdasdasdasd</td>
+                            <td>asdasd</td>
+                            <td>asdasd</td>
+                            <td>asd</td>
+                            <td>ads</td>               
+                        </tr> <tr>
+                            <td>ssadasdasdasdasdasd</td>
+                            <td>asdasd</td>
+                            <td>asdasd</td>
+                            <td>asd</td>
+                            <td>ads</td>               
+                        </tr> <tr>
+                            <td>ssadasdasdasdasdasd</td>
+                            <td>asdasd</td>
+                            <td>asdasd</td>
+                            <td>asd</td>
+                            <td>ads</td>               
+                        </tr> <tr>
+                            <td>ssadasdasdasdasdasd</td>
+                            <td>asdasd</td>
+                            <td>asdasd</td>
+                            <td>asd</td>
+                            <td>ads</td>               
+                        </tr> <tr>
+                            <td>ssadasdasdasdasdasd</td>
+                            <td>asdasd</td>
+                            <td>asdasd</td>
+                            <td>asd</td>
+                            <td>ads</td>               
+                        </tr> <tr>
+                            <td>ssadasdasdasdasdasd</td>
+                            <td>asdasd</td>
+                            <td>asdasd</td>
+                            <td>asd</td>
+                            <td>ads</td>               
+                        </tr> <tr>
+                            <td>ssadasdasdasdasdasd</td>
+                            <td>asdasd</td>
+                            <td>asdasd</td>
+                            <td>asd</td>
+                            <td>ads</td>               
+                        </tr> <tr>
+                            <td>ssadasdasdasdasdasd</td>
+                            <td>asdasd</td>
+                            <td>asdasd</td>
+                            <td>asd</td>
+                            <td>ads</td>               
+                        </tr> <tr>
+                            <td>ssadasdasdasdasdasd</td>
+                            <td>asdasd</td>
+                            <td>asdasd</td>
+                            <td>asd</td>
+                            <td>ads</td>               
+                        </tr> <tr>
+                            <td>ssadasdasdasdasdasd</td>
+                            <td>asdasd</td>
+                            <td>asdasd</td>
+                            <td>asd</td>
+                            <td>ads</td>               
+                        </tr> <tr>
+                            <td>ssadasdasdasdasdasd</td>
+                            <td>asdasd</td>
+                            <td>asdasd</td>
+                            <td>asd</td>
+                            <td>ads</td>               
+                        </tr> <tr>
+                            <td>ssadasdasdasdasdasd</td>
+                            <td>asdasd</td>
+                            <td>asdasd</td>
+                            <td>asd</td>
+                            <td>ads</td>               
+                        </tr> <tr>
+                            <td>ssadasdasdasdasdasd</td>
+                            <td>asdasd</td>
+                            <td>asdasd</td>
+                            <td>asd</td>
+                            <td>ads</td>               
+                        </tr> <tr>
+                            <td>ssadasdasdasdasdasd</td>
+                            <td>asdasd</td>
+                            <td>asdasd</td>
+                            <td>asd</td>
+                            <td>ads</td>               
+                        </tr> <tr>
+                            <td>ssadasdasdasdasdasd</td>
+                            <td>asdasd</td>
+                            <td>asdasd</td>
+                            <td>asd</td>
+                            <td>ads</td>               
+                        </tr> <tr>
+                            <td>ssadasdasdasdasdasd</td>
+                            <td>asdasd</td>
+                            <td>asdasd</td>
+                            <td>asd</td>
+                            <td>ads</td>               
+                        </tr> <tr>
+                            <td>ssadasdasdasdasdasd</td>
+                            <td>asdasd</td>
+                            <td>asdasd</td>
+                            <td>asd</td>
+                            <td>ads</td>               
+                        </tr> <tr>
+                            <td>ssadasdasdasdasdasd</td>
+                            <td>asdasd</td>
+                            <td>asdasd</td>
+                            <td>asd</td>
+                            <td>ads</td>               
+                        </tr> <tr>
+                            <td>ssadasdasdasdasdasd</td>
+                            <td>asdasd</td>
+                            <td>asdasd</td>
+                            <td>asd</td>
+                            <td>ads</td>               
+                        </tr> <tr>
+                            <td>ssadasdasdasdasdasd</td>
+                            <td>asdasd</td>
+                            <td>asdasd</td>
+                            <td>asd</td>
+                            <td>ads</td>               
+                        </tr> <tr>
+                            <td>ssadasdasdasdasdasd</td>
+                            <td>asdasd</td>
+                            <td>asdasd</td>
+                            <td>asd</td>
+                            <td>ads</td>               
+                        </tr> <tr>
+                            <td>ssadasdasdasdasdasd</td>
+                            <td>asdasd</td>
+                            <td>asdasd</td>
+                            <td>asd</td>
+                            <td>ads</td>               
+                        </tr> <tr>
+                            <td>ssadasdasdasdasdasd</td>
+                            <td>asdasd</td>
+                            <td>asdasd</td>
+                            <td>asd</td>
+                            <td>ads</td>               
+                        </tr> <tr>
+                            <td>ssadasdasdasdasdasd</td>
+                            <td>asdasd</td>
+                            <td>asdasd</td>
+                            <td>asd</td>
+                            <td>ads</td>               
+                        </tr> <tr>
+                            <td>ssadasdasdasdasdasd</td>
+                            <td>asdasd</td>
+                            <td>asdasd</td>
+                            <td>asd</td>
+                            <td>ads</td>               
+                        </tr> <tr>
+                            <td>ssadasdasdasdasdasd</td>
+                            <td>asdasd</td>
+                            <td>asdasd</td>
+                            <td>asd</td>
+                            <td>ads</td>               
+                        </tr> <tr>
+                            <td>ssadasdasdasdasdasd</td>
+                            <td>asdasd</td>
+                            <td>asdasd</td>
+                            <td>asd</td>
+                            <td>ads</td>               
+                        </tr> <tr>
+                            <td>ssadasdasdasdasdasd</td>
+                            <td>asdasd</td>
+                            <td>asdasd</td>
+                            <td>asd</td>
+                            <td>ads</td>               
+                        </tr> <tr>
+                            <td>ssadasdasdasdasdasd</td>
+                            <td>asdasd</td>
+                            <td>asdasd</td>
+                            <td>asd</td>
+                            <td>ads</td>               
+                        </tr> <tr>
+                            <td>ssadasdasdasdasdasd</td>
+                            <td>asdasd</td>
+                            <td>asdasd</td>
+                            <td>asd</td>
+                            <td>ads</td>               
+                        </tr> <tr>
+                            <td>ssadasdasdasdasdasd</td>
+                            <td>asdasd</td>
+                            <td>asdasd</td>
+                            <td>asd</td>
+                            <td>ads</td>               
+                        </tr> <tr>
+                            <td>ssadasdasdasdasdasd</td>
+                            <td>asdasd</td>
+                            <td>asdasd</td>
+                            <td>asd</td>
+                            <td>ads</td>               
+                        </tr> <tr>
+                            <td>ssadasdasdasdasdasd</td>
+                            <td>asdasd</td>
+                            <td>asdasd</td>
+                            <td>asd</td>
+                            <td>ads</td>               
+                        </tr> <tr>
+                            <td>ssadasdasdasdasdasd</td>
+                            <td>asdasd</td>
+                            <td>asdasd</td>
+                            <td>asd</td>
+                            <td>ads</td>               
+                        </tr> <tr>
+                            <td>ssadasdasdasdasdasd</td>
+                            <td>asdasd</td>
+                            <td>asdasd</td>
+                            <td>asd</td>
+                            <td>ads</td>               
+                        </tr> <tr>
+                            <td>ssadasdasdasdasdasd</td>
+                            <td>asdasd</td>
+                            <td>asdasd</td>
+                            <td>asd</td>
+                            <td>ads</td>               
+                        </tr> <tr>
+                            <td>ssadasdasdasdasdasd</td>
+                            <td>asdasd</td>
+                            <td>asdasd</td>
+                            <td>asd</td>
+                            <td>ads</td>               
+                        </tr> <tr>
+                            <td>ssadasdasdasdasdasd</td>
+                            <td>asdasd</td>
+                            <td>asdasd</td>
+                            <td>asd</td>
+                            <td>ads</td>               
+                        </tr> <tr>
+                            <td>ssadasdasdasdasdasd</td>
+                            <td>asdasd</td>
+                            <td>asdasd</td>
+                            <td>asd</td>
+                            <td>ads</td>               
+                        </tr> <tr>
+                            <td>ssadasdasdasdasdasd</td>
+                            <td>asdasd</td>
+                            <td>asdasd</td>
+                            <td>asd</td>
+                            <td>ads</td>               
+                        </tr> <tr>
+                            <td>ssadasdasdasdasdasd</td>
+                            <td>asdasd</td>
+                            <td>asdasd</td>
+                            <td>asd</td>
+                            <td>ads</td>               
+                        </tr> <tr>
+                            <td>ssadasdasdasdasdasd</td>
+                            <td>asdasd</td>
+                            <td>asdasd</td>
+                            <td>asd</td>
+                            <td>ads</td>               
+                        </tr> <tr>
+                            <td>ssadasdasdasdasdasd</td>
+                            <td>asdasd</td>
+                            <td>asdasd</td>
+                            <td>asd</td>
+                            <td>ads</td>               
+                        </tr> <tr>
+                            <td>ssadasdasdasdasdasd</td>
+                            <td>asdasd</td>
+                            <td>asdasd</td>
+                            <td>asd</td>
+                            <td>ads</td>               
+                        </tr> <tr>
+                            <td>ssadasdasdasdasdasd</td>
+                            <td>asdasd</td>
+                            <td>asdasd</td>
+                            <td>asd</td>
+                            <td>ads</td>               
+                        </tr> <tr>
+                            <td>ssadasdasdasdasdasd</td>
+                            <td>asdasd</td>
+                            <td>asdasd</td>
+                            <td>asd</td>
+                            <td>ads</td>               
+                        </tr> <tr>
+                            <td>ssadasdasdasdasdasd</td>
+                            <td>asdasd</td>
+                            <td>asdasd</td>
+                            <td>asd</td>
+                            <td>ads</td>               
+                        </tr>
+                    </tbody>
+                </table>
+             
+
+            </div>
+
+               
+        </div>
+        <div class="clear"></div>
+        <div class="wrap ">
+                <div class="left-side-content">
+                        Hi
+                    </div>   
+
+                      <aside class="right-side-content">
+                        Hi
+                    
+                    </aside>   
+                
+                </div>
+    </div>
+    <footer id="footer">
+        <div class="wrap">
+            <div class="innercontent"></div>
+        </div>
+    </footer>
+    <script>
+        var header = document.getElementById("header");
+        var headerHeight = header.clientHeight;
+        var headerStop = (headerHeight - header.offsetTop);
+        var leftAd = document.getElementsByClassName("left-ad")[0];
+        var rightAd = document.getElementsByClassName("right-ad")[0];
+        var footer = document.getElementById("footer");
+        var footerHeight = footer.clientHeight;
+        var contentArea = document.getElementsByClassName("content")[0].children[1];
+        var leftVal = contentArea.offsetLeft - leftAd.clientWidth;
+        var rightVal = contentArea.offsetLeft - rightAd.clientWidth;
+        leftAd.style.left = leftVal + 'px';
+        rightAd.style.right = rightVal + 'px';
+        window.addEventListener('scroll', stickyScroll);
+        function stickyScroll() {
+             var dataTable = document.getElementsByClassName("data-table")[0];
+             console.log(dataTable.childNodes.entries)
+             var innerTableBody = dataTable.getElementsByTagName("tbody")[0];
+             var innerTableBodyRow = innerTableBody.getElementsByTagName("tr")[0];
+             var innerTableBodyRowCell = innerTableBodyRow.getElementsByTagName("td");
+             var innerTableHead = dataTable.getElementsByTagName("thead")[0];
+             var innerTableHeadCell = innerTableHead.getElementsByTagName("tr")[0].getElementsByTagName("th");
+           
+             var scrollTop = (window.pageYOffset !== undefined) ? window.pageYOffset : (document.documentElement || document.body.parentNode || document.body).scrollTop;
+            console.log(scrollTop, header.offsetTop);
+            if (scrollTop >= headerStop) { 
+                header.classList.add("sticky");
+                 for (var i = 0; i < innerTableBodyRowCell.length; i++ ){
+                    innerTableHeadCell[i].style.width =  innerTableBodyRowCell[i].offsetWidth + 'px';
+                }
+
+                innerTableHead.style.position= "fixed";
+                innerTableHead.style.width = innerTableBody.offsetWidth + 'px';
+                innerTableHead.style.top = headerHeight - 25 + 'px';
+            }
+            else {
+                header.classList.remove("sticky");
+                  for (var i = 0; i < innerTableBodyRowCell.length; i++ ){
+                    innerTableHeadCell[i].style.width = '';
+                }
+                 innerTableHead.style.position= "relative";
+            }
+            if (scrollTop >= headerHeight + 15) {
+                leftAd.classList.add("sticky");
+                rightAd.classList.add("sticky");
+                
+            }
+            else {
+                leftAd.classList.remove("sticky");
+                rightAd.classList.remove("sticky");
+
+            }
+            if (document.body.scrollTop + window.innerHeight > footer.offsetTop) {
+                var adBottmPostion = document.body.scrollTop + window.innerHeight - footer.offsetTop;
+                leftAd.classList.add("bottomSticky");
+                leftAd.style.bottom = adBottmPostion + 20 + 'px';
+                rightAd.classList.add("bottomSticky");
+                rightAd.style.bottom = adBottmPostion + 20 + 'px';
+            }
+            else {
+                leftAd.classList.remove("bottomSticky");
+                rightAd.classList.remove("bottomSticky");
+            }
+        }
+        
+
+
+    </script>
+</body>
+
+</html>
